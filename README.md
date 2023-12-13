@@ -5,7 +5,7 @@ This repository contains the source code for the paper `EcoRank: Budget-Constrai
 We use python 3.9 for our experiments. Install the necessary libraries from the `requirements.txt` file.
 
 ## Getting the dataset and evidence passages
-We use the test split of the NQ and WQ datasets. For evidence collection we use wikipedia 2018 English dump. The code to collect the datasets and wikipedia split is taken from UPR[https://github.com/DevSinghSachan/unsupervised-passage-reranking] code repository. To collect the evidence passages as a `tsv` file run the following command:
+We use the test split of the NQ and WQ datasets. For evidence collection we use wikipedia 2018 English dump. The code to collect the datasets and wikipedia split is taken from [UPR](https://github.com/DevSinghSachan/unsupervised-passage-reranking) code repository. To collect the evidence passages as a `tsv` file run the following command:
 ```sh
 python3 download_data.py --resource data.wikipedia-split.psgs_w100
 ```
