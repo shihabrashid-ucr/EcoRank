@@ -13,6 +13,10 @@ To download the NQ-test dataset run:
 ```sh
 python3 download_data.py --resource data.retriever-outputs.bm25.nq-test
 ```
+To download the WQ-test dataset run:
+```sh
+python3 download_data.py --resource data.retriever-outputs.bm25.webq-test
+```
 These will download the passages into `./downloads/data/wikipedia-split/` and datasets into `./downloads/data/retriever-outputs/bm25/` folders.
 
 ### Process the Wikipedia passages
